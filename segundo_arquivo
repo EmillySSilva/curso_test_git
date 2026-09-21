@@ -1,0 +1,3 @@
+git add segundo_arquivo
+git commit -m "adição de um novo arquivo'
+git push origin main
