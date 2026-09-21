@@ -27,14 +27,7 @@ Quando criamos um repositórios estamos iniciando um projeto;
 O repositório pode ir para servidores que são especializados em gerenciar repos, com GitHub e Bitbucket; 
 Cada um dos desenvolvedores do time pode baixar o repositório e criar versões diferentes em sua máquina; 
 
-Criando repositório
-
-Para criar um repositório utilizamos o comando : git init; 
-Desta maneira o git vai criar os arquivos necessários para inicializar-lo; 
-Que estão na pasta oculta .git; 
-Após este comando o diretório atual será reconhecido pelo git como um projeto e responderá aos seus demais comandos; 
-
-O que é  o GitHub?
+1.4. O que é  o GitHub?
 
 É um serviço para gerenciar repositórios , gratuito e amplamente utilizado; 
 Podemos enviar nossos projetos para o GitHub e disponibilizá-lo para outros devs;
@@ -42,16 +35,19 @@ O gitHub é gratuito tanto para projetos públicos com privados;
 vamos criar uma conta em: https://github.com 
 
 
+2. Criando repositório
+
+Para criar um repositório utilizamos o comando : git init; 
+Desta maneira o git vai criar os arquivos necessários para inicializar-lo; 
+Que estão na pasta oculta .git; 
+Após este comando o diretório atual será reconhecido pelo git como um projeto e responderá aos seus demais comandos; 
 
 
+3. Comando para saber se existe repositório (Branch e Comint)
+   # git status  
 
 
-
-Comando para saber se existe repositório (Branch e Comint)
- git status  
-
-
-Enviando repositório para o GH
+4. Enviando repositório para o GH
 
 Podemos facilmente enviar nossos repositórios para o Github;
 Precisa criar o projeto no GitHub, inicializar o mesmo no git em nossa máquina, sincronizar com o GH e enviar; 
@@ -59,7 +55,7 @@ E esta sequência que parece ser complexa é facilmente executada por poucos com
 Vale lembrar que só fazemos uma vez por projeto este fluxo;
 Porém alguns dos comandos utilizados vão ser úteis ao longo do curso;
 
-Códigos para criar repositório
+5. Códigos para criar repositório
 
 git init 
 git add primeiro_arquivo // em vermelho é o nome do arquivo
